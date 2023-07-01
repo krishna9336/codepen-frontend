@@ -7,7 +7,7 @@ import {
   DocumentTextIcon,
 } from "@heroicons/react/24/solid";
 // import Codepen from "./codePen/Component/Codepen";
-import Window from "./codepen_window/window";
+// import Window from "./codepen_window/window";
 
 export const routes = [
   {
@@ -34,12 +34,12 @@ export const routes = [
     path: "/sign-up",
     element: <SignUp />,
   },
-  {
-    icon: ArrowRightOnRectangleIcon,
-    name: "App",
-    path: "/app",
-    element: <Window />,
-  },
+  // {
+  //   icon: ArrowRightOnRectangleIcon,
+  //   name: "App",
+  //   path: "/app",
+  //   element: <Window />,
+  // },
   // {
   //   icon: DocumentTextIcon,
   //   name: "Docs",

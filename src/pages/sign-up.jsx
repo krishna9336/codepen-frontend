@@ -19,7 +19,9 @@ export function SignUp() {
 
   function handlesignup(event) {
 
-    navigate('/app');
+    // navigate('/app');
+    window.open("https://magenta-jelly-263dba.netlify.app/");
+
   }
   const requestOptions = {
     method: 'POST',

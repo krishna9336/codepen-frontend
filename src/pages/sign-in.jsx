@@ -20,7 +20,8 @@ export function SignIn() {
 
   function handleLogin(event) {
 
-    navigate('/app');
+    // navigate('/app');
+    window.open("https://magenta-jelly-263dba.netlify.app/");
   }
   const requestOptions = {
     method: 'POST',
